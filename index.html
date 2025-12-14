@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Inventario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- BARRA LATERAL -->
+    <aside class="sidebar" role="navigation">
+        <h2>Inventario</h2>
+        <nav>
+            <ul>
+                <li tabindex="0">Dashboard</li>
+                <li tabindex="0">Productos</li>
+                <li tabindex="0">Entradas</li>
+                <li tabindex="0">Salidas</li>
+                <li tabindex="0">Reportes</li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- LAYOUT PRINCIPAL -->
+    <div class="layout">
+
+        <!-- ENCABEZADO -->
+        <header class="header">
+            <h1>Panel de Control</h1>
+        </header>
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <main class="main" role="main">
+
+            <!-- TARJETAS DE RESUMEN -->
+            <section class="cards">
+                <article class="card">Productos: 120</article>
+                <article class="card">Stock bajo: 8</article>
+                <article class="card">Entradas hoy: 15</article>
+                <article class="card">Salidas hoy: 10</article>
+            </section>
+
+            <!-- TABLA DE PRODUCTOS -->
+            <section class="table-section">
+                <h2>Lista de Productos</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Categoría</th>
+                            <th>Stock</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mouse</td>
+                            <td>Accesorios</td>
+                            <td>25</td>
+                            <td>Disponible</td>
+                        </tr>
+                        <tr>
+                            <td>Teclado</td>
+                            <td>Accesorios</td>
+                            <td>5</td>
+                            <td>Bajo stock</td>
+                        </tr>
+                        <tr>
+                            <td>Monitor</td>
+                            <td>Pantallas</td>
+                            <td>12</td>
+                            <td>Disponible</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </main>
+
+        <!-- PIE DE PÁGINA -->
+        <footer class="footer">
+            <p>Dashboard de Inventario © 2025</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
