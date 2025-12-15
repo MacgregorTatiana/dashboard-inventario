@@ -58,3 +58,24 @@ El uso combinado de CSS Grid y Flexbox permite una estructura flexible y fácil 
 ## 👤 Autor
 
 Actividad académica desarrollada para la asignatura **Diseño Web**.
+
+## 📱 Responsividad (Desktop, Tablet y Mobile)
+
+El dashboard fue diseñado con un enfoque responsive, adaptándose correctamente a diferentes tamaños de pantalla:
+
+- **Desktop (pantalla grande):**
+  - Sidebar visible de forma permanente.
+  - Tarjetas de resumen alineadas en una sola fila.
+  - Tabla de productos completamente visible.
+
+- **Tablet (pantalla mediana):**
+  - El sidebar reduce su ancho.
+  - Las tarjetas se reorganizan en dos columnas.
+  - El contenido principal se ajusta sin perder legibilidad.
+
+- **Mobile (pantalla pequeña):**
+  - Las tarjetas se muestran en una sola columna.
+  - El contenido se adapta verticalmente.
+  - Se mantiene la usabilidad mediante scroll y diseño flexible.
+
+La adaptación se logra mediante el uso de **CSS Grid**, **Flexbox** y **Media Queries**.
